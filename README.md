@@ -11,8 +11,16 @@ https://blog.devart.com/configure-postgresql-to-allow-remote-connection.html
 
 `sudo nano /etc/postgresql/12/main/postgresql.conf` :
 
+change from
+
 ```
-change from #listen_addresses = 'localhost' to listen_addresses = '*'
+#listen_addresses = 'localhost'
+```
+
+to
+
+```
+listen_addresses = '*'
 ```
 
 
