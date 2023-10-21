@@ -3,6 +3,7 @@
 ## Install and Create database
 
 ### 1. Install postgress.
+https://ubuntu.com/server/docs/databases-postgresql
 
 `sudo apt install postgres `
 
