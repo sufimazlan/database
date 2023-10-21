@@ -1,4 +1,4 @@
-# database
+# PostgreSQL
 
 ## install and create database
 
@@ -45,3 +45,20 @@ host    all             all             0.0.0.0/0            md5
 ### 3. Restart postgres service
 
 `sudo service postgresql restart`
+
+## Connect database through ssh tunnel
+
+### 1. SSH Tunnel inputs
+
+```
+Host : Server ip
+Port : 22
+Username : Server user
+Authentication : Public Key
+Private Key : .pem or .ppk
+Passphrase: Password set during the public key generation.
+```
+
+# MySQL
+
+## Coming soon
