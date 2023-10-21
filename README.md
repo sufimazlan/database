@@ -1,6 +1,6 @@
 # PostgreSQL
 
-## install and create database
+## Install and Create database
 
 ### 1. Install postgress.
 
