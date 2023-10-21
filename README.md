@@ -6,7 +6,9 @@
 
 `sudo apt install postgres `
 
-### 2. Configure conf file. This allows PostgreSQL to listen on all available IP addresses.
+## Configure PostgreSQL connection
+
+### 1. Configure conf file. This allows PostgreSQL to listen on all available IP addresses.
 https://blog.devart.com/configure-postgresql-to-allow-remote-connection.html
 
 `sudo nano /etc/postgresql/12/main/postgresql.conf` :
@@ -42,7 +44,7 @@ to
 host    all             all             0.0.0.0/0            md5
 ```
 
-### 3. Restart postgres service
+### 2. Restart postgres service
 
 `sudo service postgresql restart`
 
