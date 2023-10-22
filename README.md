@@ -45,7 +45,15 @@ to
 host    all             all             0.0.0.0/0            md5
 ```
 
-### 2. Restart postgres service
+### 2. Create a database in PostgreSQL
+
+`createdb malaysiaai-0`
+
+create a new connection to the PostgreSQL server and connect to the database named malaysiaai-0
+
+`psql -d malaysiaai-0`
+
+### 3. Restart postgres service
 
 `sudo service postgresql restart`
 
